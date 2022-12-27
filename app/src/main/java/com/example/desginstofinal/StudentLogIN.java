@@ -126,7 +126,6 @@ public class StudentLogIN extends AppCompatActivity {
                 tVtitle.setText("Login");
                 eTname.setVisibility(View.INVISIBLE);
                 eTphone.setVisibility(View.INVISIBLE);
-                eTphone.setVisibility(View.INVISIBLE);
                 eTid.setVisibility(View.INVISIBLE);
                 LL.setVisibility(View.INVISIBLE);
                 btnFP.setVisibility(View.VISIBLE);

@@ -67,6 +67,9 @@ public class ForGotMyPass extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }
+                else{
+                    Toast.makeText(ForGotMyPass.this, "email is not exist!", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

@@ -99,6 +99,8 @@
             android:ems="10"
             android:hint="Enter your Phone"
             android:inputType="phone"
+            android:digits="0123456789"
+            android:maxLength="10"
             android:visibility="invisible" />
 
 
@@ -113,6 +115,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:ems="10"
+            android:maxLength="9"
             android:hint="Enter your id"
             android:inputType="phone"
             android:visibility="invisible" />
