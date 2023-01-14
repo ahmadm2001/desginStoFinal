@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5DBDB "
+    android:orientation="horizontal"
+    tools:context=".profile">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+    <LinearLayout
+
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tVtitle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:textSize="60dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="Profile"
+            android:textStyle="bold" />
+
+
+        <ImageView
+
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:id="@+id/iV"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+
+            android:scaleType="fitXY"
+            android:onClick="upload"
+
+            android:src="@drawable/profile1"
+            />
+
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <Button
+
+
+                android:visibility="gone"
+                android:id="@+id/btnUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="upload"
+                android:background="#48C9B0"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="Upload"
+                android:textStyle="bold"
+                />
+
+            <Button
+
+                android:visibility="gone"
+                android:layout_marginRight="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View pic"
+                android:background="#48C9B0"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="bold"
+                android:onClick="download"
+                />
+        </LinearLayout>
+
+
+        <TextView
+
+            android:id="@+id/towinglicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:visibility="gone"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:hint="towinglicense"
+            android:inputType="number"
+            android:text="Towing License : " />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:singleLine="true"
+            android:paddingLeft="40dp"
+            android:id="@+id/nameview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:hint="name"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:singleLine="true"
+            android:paddingLeft="40dp"
+            android:id="@+id/phoneview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:visibility="visible"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:inputType="number|phone"
+            android:textStyle="bold"
+            android:hint="phone:" />
+
+        <TextView
+            android:singleLine="true"
+            android:paddingLeft="40dp"
+            android:id="@+id/eTemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:visibility="visible"
+            android:textStyle="bold"
+
+            android:hint="e-mail:"
+            android:inputType="textEmailAddress"
+            android:text="email" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+
+
+</LinearLayout>

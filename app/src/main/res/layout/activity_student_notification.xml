@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentNotification">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/header"
+        android:text="Notification"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+
+        android:layout_below="@+id/header"
+        android:layout_marginTop="95dp"
+        android:id="@+id/message"
+        android:text="you have 0 product"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_below="@+id/message"
+        android:layout_marginTop="25dp"
+        android:id="@+id/a"
+        android:textColor="#27B121"
+        android:text="0 confirmed"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+
+        android:textColor="#AB152E"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="25dp"
+        android:id="@+id/b"
+        android:text="0 on hold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>

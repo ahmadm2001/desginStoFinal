@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/ImgProduct"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/product"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+    </ImageView>
+
+    <TextView
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:id="@+id/col1"
+        android:textColor="#111"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:textColor="#111"
+        android:fontFamily="sans-serif"
+        android:textSize="11dp"
+        android:id="@+id/col2"
+        android:layout_below="@+id/col1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="#111"
+        android:fontFamily="sans-serif"
+        android:textSize="11dp"
+        android:id="@+id/col3"
+        android:layout_below="@+id/col2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="Start Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="#111"
+        android:fontFamily="sans-serif"
+        android:textSize="11dp"
+        android:id="@+id/col4"
+        android:layout_below="@+id/col3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="End Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <ImageView
+
+
+        android:rotationY="45"
+        android:visibility="gone"
+        android:id="@+id/ImgStatus"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/soldout"
+        android:layout_width="40dp"
+        android:layout_height="30dp">
+
+    </ImageView>
+</RelativeLayout>
