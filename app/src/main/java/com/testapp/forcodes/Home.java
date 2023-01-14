@@ -98,7 +98,7 @@ public class Home extends AppCompatActivity {
                 return true;
             case R.id.item5:
                 Toast.makeText(this, "Bye Bye...", Toast.LENGTH_SHORT).show();
-                Intent intent5= new Intent(this,Login.class);
+                Intent intent5= new Intent(this,MainActivity.class);
                 startActivity(intent5);
                 return true;
             default:
