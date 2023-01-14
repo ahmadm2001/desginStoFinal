@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/item4"
+        android:title="Home Page"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_home"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/item2"
+        android:title="Items List"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item3"
+        android:title="Students List"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item5"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+
+</menu>
