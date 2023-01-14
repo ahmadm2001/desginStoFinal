@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/ImgProduct"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/product"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+    </ImageView>
+
+    <TextView
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:id="@+id/col1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="Product Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+
+        android:fontFamily="sans-serif"
+        android:textSize="11dp"
+        android:id="@+id/col2"
+        android:layout_below="@+id/col1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="start Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+
+        android:fontFamily="sans-serif"
+        android:textSize="11dp"
+        android:id="@+id/col3"
+        android:layout_below="@+id/col2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/ImgProduct"
+        android:text="end Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</RelativeLayout>
