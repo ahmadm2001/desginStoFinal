@@ -49,6 +49,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="name"
+            android:nextFocusDown="@id/eTemail"
             android:inputType="textPersonName"
             android:visibility="invisible" />
 
@@ -66,6 +67,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="e-mail"
+            android:nextFocusDown="@id/eTpass"
             android:inputType="textEmailAddress" />
 
 
@@ -82,6 +84,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="password"
+            android:nextFocusDown="@id/eTphone"
             android:inputType="textPassword" />
 
 
@@ -101,6 +104,7 @@
             android:inputType="phone"
             android:digits="0123456789"
             android:maxLength="10"
+            android:nextFocusDown="@id/eTid"
             android:visibility="invisible" />
 
 
@@ -137,6 +141,9 @@
         </LinearLayout>
 
         <CheckBox
+
+            android:textAlignment="textStart"
+            android:layoutDirection="ltr"
             android:id="@+id/cBstayconnect"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -175,13 +182,13 @@
             <Button
                 android:id="@+id/btn"
                 style="@style/CardView.Dark"
-                android:layout_width="73dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="5"
                 android:background="#5DADE2"
-                android:onClick="logorreg"
+
                 android:text="Login"
-                android:textSize="20dp" />
+                android:textSize="14dp" />
 
             <Space
                 android:layout_width="0dp"
@@ -190,14 +197,14 @@
 
             <Button
                 android:id="@+id/btnFG"
-                android:layout_width="0dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="5"
                 android:background="#5DADE2"
                 style="@style/CardView.Dark"
                 android:text="new password"
-                android:onClick="FGM"
-                android:textSize="10dp" />
+
+                android:textSize="14dp" />
         </LinearLayout>
 
         <Space

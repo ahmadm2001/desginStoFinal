@@ -28,7 +28,7 @@ public class ForGotMyPass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_for_got_my_pass);
 
-        getSupportActionBar().setTitle("Forgot Password");
+        //getSupportActionBar().setTitle("Forgot Password");
 
         buttonPwdRest = (Button) findViewById(R.id.btn1);
         editTextEmail=(EditText) findViewById(R.id.eTForGot1);

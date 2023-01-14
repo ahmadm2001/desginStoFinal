@@ -1,13 +1,16 @@
 package com.example.desginstofinal;
 
-public class Student {
-    private String name, Phone,email, uid;
+import java.io.Serializable;
+
+public class Student  implements Serializable {
+    private String name, Phone,email, uid,id;
     public Student(){}
-    public Student(String Name, String Phone,String email, String uid ){
+    public Student(String Name, String Phone,String email, String uid,String id ){
         this.name=Name;
         this.Phone=Phone;
         this.uid=uid;
         this.email=email;
+        this.id=id;
     }
 
 
@@ -46,7 +49,13 @@ public class Student {
     public void setUid(String uid) {
         this.uid = uid;
     }
+    public String getid() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 
 
 }
